@@ -1,0 +1,31 @@
+
+.base-shell {
+  background-color: #343a40;
+}
+
+.w-25 {
+  width: 25%!important;
+}
+
+.bg-display {
+  background-color: #495057;
+}
+
+.display {
+  outline: none; 
+  boxShadow: none;
+}
+
+.btn-blue {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-keyboard {
+  background-color: #495057!important;
+}
+
+
+.btn-keyboard:hover {
+  background-color: #6c757d!important;
+}
