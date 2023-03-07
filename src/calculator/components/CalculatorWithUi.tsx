@@ -1,3 +1,5 @@
+import { faCalculator } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { KeyboardEvent, useState } from "react";
 import { CalculatorDisplay } from "./CalculatorDisplay";
 import { CalculatorKeyboard } from "./CalculatorKeyboard";
@@ -71,7 +73,10 @@ export const CalculatorWithUi = () => {
 
   return (
     <div className="d-flex flex-column align-items-center mt-4 ">
-      <h1>Calculator with UI</h1>
+      <h1>
+        <FontAwesomeIcon icon={faCalculator} className='me-2' />
+        Calculator with UI
+        </h1>
       
       <div className="container w-25 base-shell text-light rounded" style={{height: 450}}>
 

@@ -1,5 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { ChangeEvent, useState } from 'react'
-import { CalculatorWithUi, SimpleDivCalculator } from './calculator'
+import { CalculatorWithUi, IconsDemo, SimpleDivCalculator } from './calculator'
+import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function CalculatorApp() {
 
@@ -9,6 +11,7 @@ function CalculatorApp() {
       {/* <SimpleDivCalculator/> */}
       {/* <hr /> */}
       <CalculatorWithUi/>
+      <IconsDemo />   
     </div>
   )
 }
